@@ -1,0 +1,18 @@
+.form {
+  display: flex; /*metemos en un contenedor el form*/
+  flex-direction: column; /*divide el columna el form incluye todo el contenido que este en el form*/
+  align-items: center; /*Ajusta el tamanio de todo el contenido del form y lo coloca en el centro*/
+  margin-top:45px; /*Posiciona el form donde queramos*/
+  }
+.form img{
+  width:250px; /*tamaño de la forma de la imagen*/
+  height:250px; /*tamanio de lado izquierdo de la imagen*/
+  border-radius:160px;
+  border:3px solid #666; /*color y tamanio del borde a la imagen*/
+  margin-top:25px; /*Posiciona la imagen donde queramos*/
+}
+  ::placeholder {
+    text-align: center; /*Centra los placeholder del index*/
+ }
+
+
